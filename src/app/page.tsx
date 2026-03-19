@@ -235,7 +235,7 @@ function HomeContent() {
                       value={intention}
                       onChange={(e) => setIntention(e.target.value)}
                       placeholder={t({ en: 'e.g. My family, healing for a friend…', es: 'p.ej. Mi familia, sanación de un amigo…' })}
-                      className="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-800 placeholder-gray-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-300 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:placeholder-gray-500"
+                      className="w-full appearance-none rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-800 placeholder-gray-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-300 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:placeholder-gray-500"
                     />
                   </div>
                 </div>

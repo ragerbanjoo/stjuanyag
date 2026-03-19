@@ -101,9 +101,10 @@ export function InstallPrompt() {
         <div className="px-5 py-4 space-y-3">
           {step === 'ios' ? (
             <>
-              <Step n={1} icon={ShareIcon} text={<>Tap the <strong>Share</strong> button at the bottom of your browser</>} />
-              <Step n={2} icon={ScrollIcon} text={<>Scroll down and tap <strong>&quot;Add to Home Screen&quot;</strong></>} />
-              <Step n={3} icon={CheckIcon} text={<>Tap <strong>&quot;Add&quot;</strong> — done! Open the app from your home screen</>} />
+              <Step n={1} icon={DotsIcon} text={<>Tap the <strong>⋯ three dots</strong> button at the bottom-right of Safari</>} />
+              <Step n={2} icon={ShareIcon} text={<>Tap the <strong>Share</strong> button (box with arrow pointing up)</>} />
+              <Step n={3} icon={ScrollIcon} text={<>Scroll down and tap <strong>&quot;Add to Home Screen&quot;</strong></>} />
+              <Step n={4} icon={CheckIcon} text={<>Tap <strong>&quot;Add&quot;</strong> — done! Open the app from your home screen</>} />
             </>
           ) : (
             <>
