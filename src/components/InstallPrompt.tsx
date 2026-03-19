@@ -102,14 +102,14 @@ export function InstallPrompt() {
           {step === 'ios' ? (
             <>
               <Step n={1} icon={ShareIcon} text={<>Tap the <strong>Share</strong> button at the bottom of your browser</>} />
-              <Step n={2} icon={ScrollIcon} text={<>Scroll down and tap <strong>"Add to Home Screen"</strong></>} />
-              <Step n={3} icon={CheckIcon} text={<>Tap <strong>"Add"</strong> — done! Open the app from your home screen</>} />
+              <Step n={2} icon={ScrollIcon} text={<>Scroll down and tap <strong>&quot;Add to Home Screen&quot;</strong></>} />
+              <Step n={3} icon={CheckIcon} text={<>Tap <strong>&quot;Add&quot;</strong> — done! Open the app from your home screen</>} />
             </>
           ) : (
             <>
               <Step n={1} icon={DotsIcon} text={<>Tap the <strong>⋮ menu</strong> (three dots) in the top-right of Chrome</>} />
-              <Step n={2} icon={HomeIcon} text={<>Tap <strong>"Add to Home screen"</strong></>} />
-              <Step n={3} icon={CheckIcon} text={<>Tap <strong>"Add"</strong> — done! Open the app from your home screen</>} />
+              <Step n={2} icon={HomeIcon} text={<>Tap <strong>&quot;Add to Home screen&quot;</strong></>} />
+              <Step n={3} icon={CheckIcon} text={<>Tap <strong>&quot;Add&quot;</strong> — done! Open the app from your home screen</>} />
             </>
           )}
         </div>
